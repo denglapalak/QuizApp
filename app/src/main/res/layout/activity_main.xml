@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Question TextView -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1: What is the capital of France?"/>
+
+    <!-- Options RadioGroup -->
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Option 1 RadioButton -->
+        <RadioButton
+            android:id="@+id/option1RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A. London"/>
+
+        <!-- Option 2 RadioButton -->
+        <RadioButton
+            android:id="@+id/option2RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B. Berlin"/>
+
+        <!-- Option 3 RadioButton -->
+        <RadioButton
+            android:id="@+id/option3RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C. Paris"/>
+
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+
